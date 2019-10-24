@@ -7,10 +7,16 @@
 
 </style>
 
-<!-- Navigation goes here -->
-<Link page={{ path: '/', name: 'Home' }} />
-<Link page={{ path: '/about', name: 'About' }} />
-<Link page={{ path: '/grocery-list', name: 'Grocery List' }} />
+<nav>
+  <Link page={{ path: '/', name: 'Home' }} />
+  <Link page={{ path: '/about', name: 'About' }} />
+  <Link page={{ path: '/grocery-list', name: 'Grocery List' }} />
+</nav>
 
-<!-- Main container goes here -->
-<Route />
+<main>
+  <Route />
+</main>
+
+<footer>
+  <p>©Copyright 2050 by nobody. All rights reversed.</p>
+</footer>

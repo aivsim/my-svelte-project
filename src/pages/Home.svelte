@@ -18,5 +18,7 @@
   }
 </style>
 
-<h1>This is Home page</h1>
-<p>It's been running for {seconds} seconds</p>
+<article>
+  <h1>This is Home page</h1>
+  <p>It's been running for {seconds} seconds</p>
+</article>
