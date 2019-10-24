@@ -29,8 +29,8 @@
   }
 </style>
 
-<div>
-  <h1>Grocery list</h1>
+<article>
+  <h1>This is Home page</h1>
 
   <form on:submit|preventDefault={addItem}>
     <label for="name">Add an item</label>
@@ -45,4 +45,4 @@
       </li>
     {/each}
   </ul>
-</div>
+</article>
